@@ -56,7 +56,7 @@ export function getMixedQuestions() {
 const BASE = import.meta.env.BASE_URL;
 
 export const MODULES = [
-    { id: 'mixed', label: 'Full Mixed Mock', icon: '🔀', description: 'Random questions pooled from all years 2019–2025', year: null, pdfUrl: null },
+    { id: 'mixed', label: 'Full Mixed Mock', icon: '🔀', description: 'Fully shuffled · draws from all 7 years (2019–2025) · new mix every attempt', year: null, pdfUrl: null },
     { id: '2025', label: 'NEET 2025', icon: '📅', description: '45 × 4 from 2025 paper · randomized order', year: 2025, pdfUrl: PDF_LINKS[2025] },
     { id: '2024', label: 'NEET 2024', icon: '📅', description: '45 × 4 from 2024 paper · randomized order', year: 2024, pdfUrl: PDF_LINKS[2024] },
     { id: '2023', label: 'NEET 2023', icon: '📅', description: '45 × 4 from 2023 paper · randomized order', year: 2023, pdfUrl: PDF_LINKS[2023] },
