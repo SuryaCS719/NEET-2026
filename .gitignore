@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Dev tools
+.DS_Store
+*.local
+
+# Previous year papers (hosted on Drive instead)
+PreviousYearPapers/
+
+# Temp scripts
+/tmp/
