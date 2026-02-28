@@ -1,12 +1,12 @@
 // ─────────────────────────────────────────────────────────────────
 // PDF Links Configuration
-// Replace the placeholder URLs below with your Google Drive links.
-// Use the "Anyone with the link can view" share format:
-// https://drive.google.com/file/d/FILE_ID/view
+// PAPERS_FOLDER: Google Drive folder with all 7 previous year papers
 // ─────────────────────────────────────────────────────────────────
 
+export const PAPERS_FOLDER = 'https://drive.google.com/drive/folders/1p0vj1woeLC2sH2rZN35d8M0CtXkOTzIu?usp=drive_link';
+
 export const PDF_LINKS = {
-    2025: null,  // e.g. 'https://drive.google.com/file/d/YOUR_ID/view'
+    2025: null,  // individual file links can be added here optionally
     2024: null,
     2023: null,
     2022: null,

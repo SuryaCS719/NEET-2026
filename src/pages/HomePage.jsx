@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { ThemeContext } from '../App.jsx';
 import { MODULES, SUBJECTS, SUBJECT_COLORS } from '../data/index.js';
+import { PAPERS_FOLDER } from '../data/pdfLinks.js';
 
 export default function HomePage({ onStart }) {
     const { theme, toggle } = useContext(ThemeContext);
@@ -130,8 +131,63 @@ export default function HomePage({ onStart }) {
                         </div>
                     </div>
 
+                    {/* Previous Year Papers Drive banner */}
+                    <a
+                        href={PAPERS_FOLDER}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="papers-folder-link"
+                        style={{ display: 'block', textDecoration: 'none', marginTop: 40 }}
+                    >
+                        <div
+                            className="glass"
+                            style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                padding: '20px 28px',
+                                border: '1px solid rgba(99,102,241,0.3)',
+                                background: 'rgba(99,102,241,0.07)',
+                                transition: 'all 0.2s',
+                                cursor: 'pointer',
+                            }}
+                            onMouseEnter={e => e.currentTarget.style.background = 'rgba(99,102,241,0.13)'}
+                            onMouseLeave={e => e.currentTarget.style.background = 'rgba(99,102,241,0.07)'}
+                        >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+                                <div style={{
+                                    width: 48, height: 48, borderRadius: 12,
+                                    background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                    fontSize: '1.5rem', flexShrink: 0,
+                                    boxShadow: '0 4px 16px rgba(99,102,241,0.35)',
+                                }}>
+                                    📁
+                                </div>
+                                <div>
+                                    <div style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--text)', marginBottom: 3 }}>
+                                        Previous Year Question Papers
+                                    </div>
+                                    <div style={{ fontSize: '0.82rem', color: 'var(--muted)' }}>
+                                        Download original NEET papers (2019–2025) from Google Drive
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{
+                                display: 'flex', alignItems: 'center', gap: 6,
+                                padding: '8px 18px', borderRadius: 99,
+                                background: 'rgba(99,102,241,0.15)',
+                                border: '1px solid rgba(99,102,241,0.35)',
+                                color: '#a78bfa', fontWeight: 600, fontSize: '0.85rem',
+                                flexShrink: 0,
+                            }}>
+                                Open Folder ↗
+                            </div>
+                        </div>
+                    </a>
+
                     {/* Subject chips */}
-                    <div style={{ marginTop: 48, textAlign: 'center' }}>
+                    <div style={{ marginTop: 40, textAlign: 'center' }}>
                         <p style={{ color: 'var(--muted)', fontSize: '0.85rem', marginBottom: 14 }}>Covering all 4 subjects</p>
                         <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
                             {SUBJECTS.map(s => (
