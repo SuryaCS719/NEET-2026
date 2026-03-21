@@ -707,7 +707,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -722,7 +722,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -739,10 +739,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -767,11 +767,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -797,7 +797,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -857,7 +857,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -887,7 +887,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -917,7 +917,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -932,7 +932,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -947,7 +947,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -977,7 +977,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -1007,7 +1007,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -1025,7 +1025,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -1052,7 +1052,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -1082,7 +1082,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -1097,7 +1097,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -1114,14 +1114,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2019_q180",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2019_q181",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2019_q182",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2019_q183",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2019_q184",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2019_q185",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2019_q186",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2019_q187",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2019_q188",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2019_q189",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2019_q190",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2019_q191",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2019_q192",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2019_q193",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2019_q194",
+      "year": 2019,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2019_q195",
       "year": 2019,
       "subject": "Zoology"
     }
@@ -1834,7 +2059,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -1849,7 +2074,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -1866,10 +2091,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -1894,11 +2119,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -1924,7 +2149,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -1984,7 +2209,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -2014,7 +2239,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -2044,7 +2269,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -2059,7 +2284,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -2074,7 +2299,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -2104,7 +2329,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -2134,7 +2359,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -2152,7 +2377,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -2179,7 +2404,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -2209,7 +2434,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -2224,7 +2449,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -2241,14 +2466,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2020_q180",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2020_q181",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2020_q182",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2020_q183",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2020_q184",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2020_q185",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2020_q186",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2020_q187",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2020_q188",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2020_q189",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2020_q190",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2020_q191",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2020_q192",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2020_q193",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2020_q194",
+      "year": 2020,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2020_q195",
       "year": 2020,
       "subject": "Zoology"
     }
@@ -2961,7 +3411,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -2976,7 +3426,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -2993,10 +3443,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -3021,11 +3471,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -3051,7 +3501,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -3111,7 +3561,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -3141,7 +3591,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -3171,7 +3621,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -3186,7 +3636,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -3201,7 +3651,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -3231,7 +3681,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -3261,7 +3711,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -3279,7 +3729,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -3306,7 +3756,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -3336,7 +3786,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -3351,7 +3801,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -3368,14 +3818,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2021_q180",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2021_q181",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2021_q182",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2021_q183",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2021_q184",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2021_q185",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2021_q186",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2021_q187",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2021_q188",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2021_q189",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2021_q190",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2021_q191",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2021_q192",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2021_q193",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2021_q194",
+      "year": 2021,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2021_q195",
       "year": 2021,
       "subject": "Zoology"
     }
@@ -4088,7 +4763,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -4103,7 +4778,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -4120,10 +4795,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -4148,11 +4823,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -4178,7 +4853,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -4238,7 +4913,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -4268,7 +4943,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -4298,7 +4973,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -4313,7 +4988,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -4328,7 +5003,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -4358,7 +5033,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -4388,7 +5063,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -4406,7 +5081,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -4433,7 +5108,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -4463,7 +5138,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -4478,7 +5153,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -4495,14 +5170,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2022_q180",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2022_q181",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2022_q182",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2022_q183",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2022_q184",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2022_q185",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2022_q186",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2022_q187",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2022_q188",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2022_q189",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2022_q190",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2022_q191",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2022_q192",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2022_q193",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2022_q194",
+      "year": 2022,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2022_q195",
       "year": 2022,
       "subject": "Zoology"
     }
@@ -6567,7 +7467,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -6582,7 +7482,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -6599,10 +7499,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -6627,11 +7527,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -6657,7 +7557,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -6717,7 +7617,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -6747,7 +7647,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -6777,7 +7677,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -6792,7 +7692,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -6807,7 +7707,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -6837,7 +7737,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -6867,7 +7767,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -6885,7 +7785,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -6912,7 +7812,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -6942,7 +7842,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -6957,7 +7857,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -6974,14 +7874,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2024_q180",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2024_q181",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2024_q182",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2024_q183",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2024_q184",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2024_q185",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2024_q186",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2024_q187",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2024_q188",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2024_q189",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2024_q190",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2024_q191",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2024_q192",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2024_q193",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2024_q194",
+      "year": 2024,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2024_q195",
       "year": 2024,
       "subject": "Zoology"
     }
@@ -7694,7 +8819,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 153,
-      "question": "The Wall of the heart is made of:",
+      "question": "The wall of the heart is made of:",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -7709,7 +8834,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 154,
-      "question": "Which part of the human brain is concerned with breathing, cardiovascular control, and swallowing?",
+      "question": "Which part of the human brain controls breathing, cardiovascular function, and swallowing?",
       "options": [
         "Cerebrum",
         "Cerebellum",
@@ -7726,10 +8851,10 @@ export const bioByYear = {
       "originalNum": 155,
       "question": "The correct sequence of events in the ovarian cycle is:",
       "options": [
-        "Ovulation -> Luteal phase -> Follicular phase",
-        "Luteal -> Follicular -> Ovulation",
-        "Follicular phase -> Ovulation -> Luteal phase",
-        "Follicular -> Luteal -> Follicular"
+        "Ovulation \u2192 Luteal phase \u2192 Follicular phase",
+        "Luteal \u2192 Follicular \u2192 Ovulation",
+        "Follicular phase \u2192 Ovulation \u2192 Luteal phase",
+        "Follicular \u2192 Luteal \u2192 Follicular"
       ],
       "correctAnswer": 3,
       "explanation": "Ovarian cycle: (1) Follicular phase (days 1-13): follicle development under FSH, rising estrogen; (2) Ovulation (day 14): LH surge triggers release of secondary oocyte; (3) Luteal phase (days 15-28): corpus luteum forms from ruptured follicle, secretes progesterone. The cycle repeats if no fertilization.",
@@ -7754,11 +8879,11 @@ export const bioByYear = {
     },
     {
       "originalNum": 157,
-      "question": "Which animal is an example of osmoconformer?",
+      "question": "Which animal is an example of an osmoconformer?",
       "options": [
         "Freshwater fish",
         "Marine bony fish",
-        "Marine invertebrates (most)",
+        "Most marine invertebrates",
         "Humans"
       ],
       "correctAnswer": 3,
@@ -7784,7 +8909,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 159,
-      "question": "Which of the following protein is found in hair and nails?",
+      "question": "Which protein is found in hair and nails?",
       "options": [
         "Collagen",
         "Keratin",
@@ -7844,7 +8969,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 163,
-      "question": "The lymph is different from blood in that:",
+      "question": "Lymph differs from blood in that:",
       "options": [
         "Lymph has RBCs and plasma",
         "Lymph has no plasma proteins",
@@ -7874,7 +8999,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 165,
-      "question": "Which of the following is an example of Pavlovian (classical) conditioning?",
+      "question": "Which of the following is an example of classical (Pavlovian) conditioning?",
       "options": [
         "Rat learning to press lever for food",
         "Dog salivating at bell sound",
@@ -7904,7 +9029,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 167,
-      "question": "The breathing movement in humans is brought about by:",
+      "question": "Breathing movement in humans is brought about by:",
       "options": [
         "Diaphragm and external intercostal muscles",
         "Diaphragm only",
@@ -7919,7 +9044,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 168,
-      "question": "The hormone that stimulates glycogenolysis (glycogen breakdown) in liver is:",
+      "question": "The hormone that stimulates glycogenolysis in the liver is:",
       "options": [
         "Insulin",
         "Glucagon",
@@ -7934,7 +9059,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 169,
-      "question": "The universal genetic code has what total number of codons?",
+      "question": "The total number of codons in the universal genetic code is:",
       "options": [
         "20",
         "61",
@@ -7964,7 +9089,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 171,
-      "question": "Which sex chromosomal abnormality is characterized by 47,XXY genotype?",
+      "question": "Which sex chromosomal abnormality is characterized by the 47,XXY genotype?",
       "options": [
         "Turner syndrome",
         "Klinefelter syndrome",
@@ -7994,7 +9119,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 173,
-      "question": "The transfer of genetic information from one bacterium to another through a phage is called:",
+      "question": "Transfer of genetic information from one bacterium to another via a phage is called:",
       "options": [
         "Transformation",
         "Transduction",
@@ -8012,7 +9137,7 @@ export const bioByYear = {
       "question": "Which of the following correctly describes the role of FSH in males?",
       "options": [
         "Stimulates testosterone production",
-        "Stimulates Sertoli cells to produce sperm-sustaining factors (ABP)",
+        "Stimulates Sertoli cells to produce ABP",
         "Causes LH release",
         "Inhibits GnRH"
       ],
@@ -8039,7 +9164,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 176,
-      "question": "The site of fertilization in the human female reproductive system is:",
+      "question": "The site of fertilization in the human female is:",
       "options": [
         "Uterus",
         "Vagina",
@@ -8069,7 +9194,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 178,
-      "question": "Which of the following is the correct description of an antigen?",
+      "question": "An antigen is best described as:",
       "options": [
         "A substance that destroys pathogens",
         "A molecule that triggers immune response and binds to antibodies",
@@ -8084,7 +9209,7 @@ export const bioByYear = {
     },
     {
       "originalNum": 179,
-      "question": "What process occurs during the S phase of cell cycle?",
+      "question": "What process occurs during the S phase of the cell cycle?",
       "options": [
         "Cell growth only",
         "DNA replication",
@@ -8101,14 +9226,239 @@ export const bioByYear = {
       "originalNum": 180,
       "question": "Which of the following is correctly matched?",
       "options": [
-        "Fibrinogen - plasma protein involved in immune response",
+        "Fibrinogen - plasma protein in immune response",
         "Albumin - blood clotting protein",
-        "Thrombin - converts fibrinogen to fibrin in blood clotting",
+        "Thrombin - converts fibrinogen to fibrin",
         "Globulin - transports oxygen"
       ],
       "correctAnswer": 3,
       "explanation": "Thrombin (serine protease) cleaves fibrinogen to fibrin in the coagulation cascade. Fibrinogen is the soluble precursor to fibrin clot (blood clotting, not immunity). Albumin is the most abundant plasma protein (regulates osmotic pressure, transports substances). Hemoglobin (not globulin) transports oxygen in RBCs.",
       "id": "2025_q180",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 181,
+      "question": "Which of the following is the correct path of sperm in the male reproductive system?",
+      "options": [
+        "Testis \u2192 Epididymis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Vas deferens \u2192 Epididymis \u2192 Urethra",
+        "Epididymis \u2192 Testis \u2192 Vas deferens \u2192 Urethra",
+        "Testis \u2192 Urethra \u2192 Epididymis \u2192 Vas deferens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sperm are produced in the seminiferous tubules of the testis, stored and matured in the epididymis, transported through the vas deferens (ductus deferens), and finally exit through the urethra. The seminal vesicles, prostate, and bulbourethral glands add secretions along the way to form semen.",
+      "id": "2025_q181",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 182,
+      "question": "Which of the following is NOT a function of the placenta?",
+      "options": [
+        "Nutrition of the fetus",
+        "Gaseous exchange",
+        "Hormone production",
+        "Production of red blood cells"
+      ],
+      "correctAnswer": 4,
+      "explanation": "The placenta performs nutrition (transfers glucose, amino acids), gaseous exchange (O2 and CO2), hormone production (hCG, progesterone, estrogen, hPL), and waste removal for the fetus. Red blood cell production (erythropoiesis) occurs in fetal liver and bone marrow, not the placenta.",
+      "id": "2025_q182",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 183,
+      "question": "The correct sequence of events during clotting of blood is:",
+      "options": [
+        "Fibrinogen \u2192 Fibrin \u2192 Thrombin \u2192 Prothrombin",
+        "Prothrombin \u2192 Thrombin \u2192 Fibrinogen \u2192 Fibrin",
+        "Fibrinogen \u2192 Prothrombin \u2192 Thrombin \u2192 Fibrin",
+        "Thrombin \u2192 Fibrinogen \u2192 Fibrin \u2192 Prothrombin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Blood clotting cascade: (1) Prothrombin is converted to Thrombin (active form) by thromboplastin + Ca2+; (2) Thrombin then converts soluble Fibrinogen to insoluble Fibrin threads; (3) Fibrin mesh traps platelets and cells forming the clot. Vitamin K is essential for prothrombin synthesis.",
+      "id": "2025_q183",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 184,
+      "question": "Which structure prevents food from entering the trachea during swallowing?",
+      "options": [
+        "Glottis",
+        "Uvula",
+        "Epiglottis",
+        "Larynx"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The epiglottis is a flap of elastic cartilage that covers the glottis (opening of trachea) during swallowing, directing food into the esophagus. When breathing normally it stays open. Dysfunction of epiglottis can cause aspiration of food into airways, leading to choking or aspiration pneumonia.",
+      "id": "2025_q184",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 185,
+      "question": "The yellow colour of urine is due to:",
+      "options": [
+        "Bilirubin",
+        "Urochrome",
+        "Creatinine",
+        "Urea"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Urochrome (urobilin) is a yellow pigment derived from the breakdown of hemoglobin (via bilirubin \u2192 urobilinogen \u2192 urochrome). It gives urine its characteristic yellow colour. Highly concentrated urine is darker yellow; dilute urine is pale. Bilirubin in urine indicates liver disease (jaundice).",
+      "id": "2025_q185",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 186,
+      "question": "Which of the following does NOT describe cardiac muscle?",
+      "options": [
+        "Involuntary",
+        "Striated",
+        "Has intercalated discs",
+        "Multinucleated syncytium like skeletal muscle"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cardiac muscle is involuntary, striated, and has intercalated discs (gap junctions + desmosomes for electrical coupling and mechanical strength). Unlike skeletal muscle which is a true multinucleated syncytium, cardiac muscle cells are individual cells (each with 1-2 nuclei) joined by intercalated discs, allowing synchronized contraction.",
+      "id": "2025_q186",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 187,
+      "question": "The glomerular filtration rate (GFR) in a healthy adult is approximately:",
+      "options": [
+        "25 mL/min",
+        "125 mL/min",
+        "500 mL/min",
+        "1200 mL/min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Normal GFR is approximately 125 mL/min (about 180 L/day). Since only about 1-1.5 L of urine is produced per day, approximately 99% of the filtrate is reabsorbed in the nephron tubules. GFR is a key indicator of kidney function; reduced GFR indicates kidney disease (CKD).",
+      "id": "2025_q187",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 188,
+      "question": "Which of the following is the largest lymphoid organ?",
+      "options": [
+        "Thymus",
+        "Spleen",
+        "Lymph node",
+        "Tonsil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spleen is the largest lymphoid organ in the body. Functions include: filtering blood (removing old RBCs), storing platelets and RBCs, mounting immune responses to blood-borne antigens, and destroying pathogens by macrophages. The thymus is important for T cell maturation. Lymph nodes filter lymph.",
+      "id": "2025_q188",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 189,
+      "question": "The functional unit of skeletal muscle is:",
+      "options": [
+        "Myosin filament",
+        "Actin filament",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sarcomere is the functional unit of skeletal muscle, bounded by two Z-lines. It contains: A-band (myosin, with overlapping actin), I-band (actin only), H-zone (myosin only), M-line (center of A-band). During contraction, I-bands and H-zones shorten (actin slides over myosin), but A-band length unchanged.",
+      "id": "2025_q189",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 190,
+      "question": "During inspiration, the diaphragm:",
+      "options": [
+        "Relaxes and moves up",
+        "Contracts and moves down",
+        "Contracts and moves up",
+        "Relaxes and moves down"
+      ],
+      "correctAnswer": 2,
+      "explanation": "During inspiration, the diaphragm contracts and flattens (moves downward), increasing the vertical dimension of the thoracic cavity, reducing intrathoracic pressure below atmospheric pressure, causing air to flow into the lungs. Simultaneously, external intercostals contract, elevating ribs, further expanding thorax.",
+      "id": "2025_q190",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 191,
+      "question": "Which of the following is a correct statement about the ABO blood group system?",
+      "options": [
+        "Blood group A has anti-A antibodies",
+        "Blood group O has both anti-A and anti-B antibodies",
+        "Blood group AB has anti-A and anti-B antibodies",
+        "Blood group B has anti-B antibodies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ABO system: Group A has A antigens, anti-B antibodies. Group B has B antigens, anti-A antibodies. Group AB has both antigens, no antibodies (universal recipient). Group O has no antigens, both anti-A and anti-B antibodies (universal donor). The antibodies are naturally occurring (not requiring prior exposure).",
+      "id": "2025_q191",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 192,
+      "question": "The hormone that stimulates the release of T3 and T4 from the thyroid gland is:",
+      "options": [
+        "FSH",
+        "TSH",
+        "GH",
+        "ACTH"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TSH (Thyroid Stimulating Hormone), secreted by anterior pituitary, stimulates the thyroid gland to synthesize and release T3 (triiodothyronine) and T4 (thyroxine). TSH release is itself stimulated by TRH (thyrotropin-releasing hormone) from hypothalamus. Negative feedback: high T3/T4 suppresses TSH and TRH.",
+      "id": "2025_q192",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 193,
+      "question": "Which cells in the testis produce testosterone?",
+      "options": [
+        "Sertoli cells",
+        "Spermatogonia",
+        "Leydig (interstitial) cells",
+        "Sustentacular cells"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leydig cells (interstitial cells of Leydig), located in the connective tissue between seminiferous tubules, produce testosterone in response to LH (luteinizing hormone, also called ICSH in males). Sertoli cells support spermatogenesis, produce ABP and inhibin, and form the blood-testis barrier.",
+      "id": "2025_q193",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 194,
+      "question": "The bicuspid (mitral) valve is located between:",
+      "options": [
+        "Right atrium and right ventricle",
+        "Left atrium and left ventricle",
+        "Left ventricle and aorta",
+        "Right ventricle and pulmonary artery"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bicuspid (mitral) valve, with 2 cusps, separates the left atrium from left ventricle, preventing backflow during ventricular contraction. The tricuspid valve (3 cusps) separates right atrium from right ventricle. Semilunar valves (aortic and pulmonary) are between ventricles and great arteries.",
+      "id": "2025_q194",
+      "year": 2025,
+      "subject": "Zoology"
+    },
+    {
+      "originalNum": 195,
+      "question": "Edema (tissue swelling) occurs when:",
+      "options": [
+        "Blood protein levels are high",
+        "Osmotic pressure of blood is high",
+        "Lymphatic drainage is blocked or capillary pressure is too high",
+        "Blood pressure is too low"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Edema is accumulation of excess interstitial fluid. Causes include: (1) Blocked lymphatic drainage (fluid cannot return), (2) High capillary hydrostatic pressure (forces excess fluid out), (3) Low plasma proteins/low osmotic pressure (fluid not drawn back). All lead to net outward fluid movement exceeding lymphatic return.",
+      "id": "2025_q195",
       "year": 2025,
       "subject": "Zoology"
     }
