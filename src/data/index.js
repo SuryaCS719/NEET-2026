@@ -106,17 +106,12 @@ function buildDuplicateSignatureMap() {
     return map;
 }
 
-function getYearSlice(pool, year, sliceSize) {
-    if (pool.length === 0) return [];
-    const yearIndex = YEARS.indexOf(year);
-    const start = ((Math.max(yearIndex, 0) * sliceSize) % pool.length + pool.length) % pool.length;
-    const slice = [];
+function signatureFromList(questions) {
+    return signatureForQuestions(questions, questions.length);
+}
 
-    for (let i = 0; i < Math.min(sliceSize, pool.length); i++) {
-        slice.push(pool[(start + i) % pool.length]);
-    }
-
-    return slice;
+function makeSeed(subject, year, attempt = 0) {
+    return (SUBJECT_SEEDS[subject] + year * 131 + attempt * 104729) >>> 0;
 }
 
 const subjectPools = {
@@ -127,32 +122,55 @@ const subjectPools = {
 };
 
 const duplicateYearSignatures = buildDuplicateSignatureMap();
+const yearSubjectPicks = {};
+
+function pickDistinctFromPool(subject, year, required, usedSignatures) {
+    const pool = subjectPools[subject] || [];
+    if (pool.length === 0) return [];
+
+    for (let attempt = 0; attempt < 300; attempt++) {
+        const candidate = seededShuffle(pool, makeSeed(subject, year, attempt)).slice(0, required);
+        const sig = signatureFromList(candidate);
+        if (!usedSignatures.has(sig)) return candidate;
+    }
+
+    // Extremely unlikely fallback: return deterministic candidate even if duplicated.
+    return seededShuffle(pool, makeSeed(subject, year, 999)).slice(0, required);
+}
+
+function buildYearSubjectPicks() {
+    for (const subject of SUBJECTS) {
+        const required = SUBJECT_SIZE[subject];
+        const usedSignatures = new Set();
+        yearSubjectPicks[subject] = {};
+
+        for (const year of YEARS) {
+            const rawYearList = uniqueByQuestion(getYearSubjectList(year, subject));
+            const shouldUseRaw = rawYearList.length >= required && !duplicateYearSignatures[subject].has(year);
+
+            let chosen = shouldUseRaw
+                ? seededShuffle(rawYearList, makeSeed(subject, year)).slice(0, required)
+                : pickDistinctFromPool(subject, year, required, usedSignatures);
+
+            let sig = signatureFromList(chosen);
+            if (usedSignatures.has(sig)) {
+                chosen = pickDistinctFromPool(subject, year, required, usedSignatures);
+                sig = signatureFromList(chosen);
+            }
+
+            usedSignatures.add(sig);
+            yearSubjectPicks[subject][year] = chosen;
+        }
+    }
+}
+
+buildYearSubjectPicks();
 
 function pickSubjectQuestionsForYear(subject, year) {
     const required = SUBJECT_SIZE[subject];
-    const rawYearList = uniqueByQuestion(getYearSubjectList(year, subject));
-
-    // Use direct year data by default. If this year's full subject paper duplicates
-    // another year (common in imported banks), fall back to a deterministic distinct slice.
-    if (rawYearList.length >= required && !duplicateYearSignatures[subject].has(year)) {
-        return randomShuffle(rawYearList).slice(0, required);
-    }
-
-    const pool = subjectPools[subject] || [];
-    const fallback = getYearSlice(pool, year, required);
-
-    // If pool is smaller than required, cycle to keep test length stable.
-    if (fallback.length < required && pool.length > 0) {
-        const out = [...fallback];
-        let i = 0;
-        while (out.length < required) {
-            out.push(pool[i % pool.length]);
-            i++;
-        }
-        return randomShuffle(out);
-    }
-
-    return randomShuffle(fallback);
+    const planned = yearSubjectPicks[subject]?.[year] || [];
+    const base = planned.length >= required ? planned : (subjectPools[subject] || []).slice(0, required);
+    return randomShuffle(base);
 }
 
 function withMeta(questions, subject, startIndex, year = null) {
